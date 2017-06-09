@@ -1,0 +1,103 @@
+html {
+
+  min-height: 100%;
+  position: relative;
+
+}
+@font-face {
+    font-family: "capture_it";
+    src: url(../fuentes/capture_it.ttf) format("truetype");
+}
+@font-face {
+    font-family:"Comfortaa_Thin";
+    src: url(../fuentes/Comfortaa_Thin.ttf) format("truetype");
+}
+body{
+	width:100%;
+	margin:0;
+	background-color: white;
+}
+.fixed {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+}
+.social{
+	width: 100%;
+	height: 30px;
+	padding-top: 0.1%;
+	background-color:#FFA07A;
+}
+
+.top {
+	font-size: 150%;
+	margin-top: 0.1%;
+	font-family: Comfortaa_Thin;
+}
+.textotop {
+	margin-left: 30%;
+}
+.iconos{
+	padding-right: 0.2%;
+	margin-right: 3.5%;
+	margin-top: -1.6%;
+}
+.icono{
+	float: right;
+	width: 1.7%;
+}
+
+.title{
+	font-family: capture_it;
+	color: white;
+	font-size: 45px;
+	float: left;
+	margin-left: 2%;
+	margin-top: 0.7%;
+}
+nav{
+	width: 100%;
+	height: 70px;
+	background-color:#FF7F50;	
+}
+
+.menu a {
+	float: left;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: AmaticSC-Regular;
+    margin-left: 10%;
+    margin-top: 1.4%;
+}
+.menu a:hover {
+    color: black;
+}
+section{
+	margin-top: 6%;
+	padding: 1px;
+}
+
+.textosection{
+	font-family: Comfortaa_Thin;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 2%;
+}
+iframe{
+	width: 100%;
+	height: 1350px;
+	border: 0;
+}
+.footer{
+	width: 100%;
+	bottom: 0;
+	position: absolute;
+	background-color: #FFA07A;
+	height: 35px;
+}
+.footer p{
+padding-left: 1%; 
+}

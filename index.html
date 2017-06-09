@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link href="css/styleindex.css"
+      rel="stylesheet" type="text/css">
+      <script>
+
+              var imagenes=new Array(
+
+                  'imagenes/fotos/fotoboda.jpg',
+                  'imagenes/fotos/fotoboda2.jpg',
+                  'imagenes/fotos/fotoboda5.jpg'
+
+              );
+
+              function rotarImagenes()
+              {
+
+                  var index=Math.floor((Math.random()*imagenes.length));
+
+                  document.getElementById("rotarimagen").src=imagenes[index];
+
+              }
+
+              onload=function()
+              {
+
+                  rotarImagenes();
+
+                  setInterval(rotarImagenes,4000);
+
+              }
+
+          </script>
+	<title>DiQueSí</title>
+</head>
+<body>
+	<div class="fixed">
+	<header>
+		<div class="social">
+			<div class="top">
+				<a class="textotop">La web más cercana donde encontrar todo lo que necesitas para tu boda o evento.</a>
+			</div>
+			<div class="iconos">
+				<a href="https://www.facebook.com/" target="blank"><img class="icono" src="imagenes/redes/iconofacebook.png"></a>
+				<a href="https://twitter.com/" target="blank"><img class="icono" src="imagenes/redes/iconotwitter.png"></a>
+				<a href="https://es.pinterest.com/" target="blank"><img class="icono" src="imagenes/redes/iconopinterest.png"></a>
+				<a href="https://www.instagram.com/" target="blank"><img class="icono" src="imagenes/redes/iconoinstagram.png"></a>
+			</div>
+		</div>
+	<nav>
+		<div class="menu">
+			<h1 class="title">DiQueSí</h1>
+  			<a href="#"> Inicio </a>
+  			<a href="html/bodas.html"> Bodas </a>
+  			<a href="html/eventos.html"> Eventos </a>
+  			<a href="html/comollegar.html"> ¿Como Llegar? </a>
+  			<a href="html/contacto.html"> Contacto </a>
+		</div>
+	</nav>
+	</header>
+	</div>
+	<section>
+		<img src="" id="rotarimagen">
+		<div class="textosection">
+			<p>
+				Queréis una boda o evento diferente, emocionante y único. ¡Bienvenidos! Estáis en DiQueSí. Nuestras bodas y eventos son mágicos.
+			<br>
+				Vuestra boda o evento está ya en vuestra mente, os ayudamos a descubrirla y darle forma.
+			<br>
+				Interpretamos vuestra visión con talento y soluciones creativas. Ponemos nuestra capacidad artística para ayudaros a materializarla. Contáis con nuestra organización y nuestra logística para tenerlo todo controlado.
+			</p>
+		</div>
+	</section>
+	<footer>
+		<div class="footer">
+				<p>
+				Copyright 2017 © DiQueSí - Organizadores de bodas y eventos - 685 632 651 - Hecho por: Javier Martínez Martín
+				</p>
+		</div>
+	</footer>
+</body>
+</html>
